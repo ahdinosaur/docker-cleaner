@@ -1,0 +1,13 @@
+{
+  "name": "docker-cleaner",
+  "version": "1.0.0",
+  "description": "docker image to clean docker every hour",
+  "main": "index.js",
+  "scripts": {
+    "build": "docker build -t ahdinosaur/docker-cleaner .",
+    "example": "docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -v /etc:/etc ahdinosaur/docker-cleaner",
+    "push": "docker push ahdinosaur/docker-cleaner"
+  },
+  "author": "Mikey <michael.williams@enspiral.com> (http://dinosaur.is)",
+  "license": "ISC"
+}

@@ -1,6 +1,6 @@
 {
   "name": "docker-cleaner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "docker image to clean docker every hour",
   "main": "index.js",
   "scripts": {
